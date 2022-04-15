@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto&amp;display=swap'><link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>CVS Pharmacy Mobile - Clone</title>
+</head>
+<body>
+    <div id="splash">
+        <img src="img/logo.png" alt="" class="logo">
+    </div>
+    <div class="content">
+        <header class="app-header">
+            <div class="container">
+                <img src="img/logo.png" alt="" class="logo">
+                <input type="text" class="search" placeholder="Search...">
+            </div>
+        </header>
+
+        <div class="subheader">
+            <div>
+                <p>Now delivering Rx + more</p>
+                <p>Find out now <i class="fa fa-chevron-right"></i></p>
+            </div>
+            <img src="img/delivery.png" alt="">
+        </div>
+
+        <div class="grid container">
+            <div class="item">
+                <h4>Pharmacy</h4>
+                <p>Refill and transfer prescriptions online</p>
+                <img src="img/medicine.png" alt="" />
+            </div>
+            <div class="item">
+                <h4>Rewards</h4>
+                <p class="desc">ExtraCare loyalty program </p>
+                <img src="https://i.ibb.co/XY6WTq6/medal.png" alt="" />
+            </div>
+            <div class="item">
+                <h4>Clinic</h4>
+                <p class="desc">MinuteClinic is a walk-in clinic at 40% less the cost of urgent care.</p>
+                <img src="https://i.ibb.co/F6YbmHw/nurse.png" alt="" />
+            </div>
+            <div class="item">
+                <h4>Shop Online</h4>
+                <p class="desc">Free shipping on orders $35+</p>
+                <img src="https://i.ibb.co/30kN9wL/shop.png" alt="" />
+            </div>
+            <div class="item">
+                <h4>Deals</h4>
+                <p class="desc">Browse the latest online deals, specials, and BOGO offers from CVS today. </p>
+                <img src="https://i.ibb.co/GszTNWF/photo.png" alt="" />
+            </div>
+            <div class="item">
+                <h4>CVSHealth</h4>
+                <p class="desc">Press releases</p>
+                <img src="https://i.ibb.co/nDryZ8R/newspaper.png" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <footer class="app-footer">
+        <ul>
+            <li>
+                <i class="fa fa-heart"></i>
+                Home
+            </li>
+            <li>
+                <i class="fa fa-barcode"></i>
+                Show Card
+            </li>
+            <li>
+                <i class="fa fa-user"></i>
+                Account
+            </li>
+            <li>
+                <i class="fa fa-map-marker"></i>
+                Find Store
+            </li>
+        </ul>
+    </footer>
+
+    <script>
+        setTimeout(() => {
+            document.getElementById('splash').classList.add('fade');
+        }, 2000);
+    </script>
+</body>
+</html>
